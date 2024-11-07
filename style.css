@@ -359,3 +359,39 @@ footer {
     margin: 2rem 0 0;
 }
 
+@media screen and (max-width: 425px) {
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .intro-text {
+        max-width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .intro h1 {
+        font-size: 1.8rem;
+    }
+
+    .intro p {
+        font-size: 0.9rem;
+    }
+
+    .intro img {
+        width: 100px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+
+    .project-container {
+        width: 100%;
+    }
+
+    .contact-form-container {
+        max-width: 100%;
+    }
+}
